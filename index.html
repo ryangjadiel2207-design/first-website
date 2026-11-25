@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Garcia</title>
+    <style>
+        :root {
+            --ink: #2b2a33;
+            --paper: #fbf8f3;
+            --card: #ffffff;
+            --accent: #3d52a0;
+            --accent-dark: #2a3a7a;
+            --muted: #6b6a75;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            line-height: 1.7;
+            background: var(--paper);
+            color: var(--ink);
+        }
+
+        header {
+            background: var(--accent);
+            color: white;
+            padding: 56px 24px 48px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 2.2rem;
+            font-weight: normal;
+        }
+
+        header p {
+            margin: 0;
+            opacity: 0.85;
+            font-style: italic;
+        }
+
+        nav {
+            background: var(--accent-dark);
+            padding: 14px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 14px;
+            font-family: Arial, sans-serif;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover,
+        nav a:focus-visible {
+            text-decoration: underline;
+        }
+
+        section {
+            background: var(--card);
+            margin: 24px auto;
+            padding: 28px 32px;
+            max-width: 680px;
+            border-radius: 10px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: var(--accent);
+            margin-top: 0;
+            font-weight: normal;
+        }
+
+        p {
+            margin: 0 0 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 28px 20px 40px;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hey, I'm Ryan Garcia.</h1>
+        <p>My first website. It's a work in progress.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About me</a>
+        <a href="#interests">What I'm into</a>
+        <a href="#goals">Where I'm headed</a>
+    </nav>
+
+    <section id="about">
+        <h2>About me</h2>
+        <p>I'm a freshman at HVCC, originally from Virginia. I'm studying computing and information science, and I'm still working out exactly what I want to do with it.</p>
+        <p>When I'm not at my computer, I'm snowboarding, cooking, or hanging out with my family.</p>
+    </section>
+
+    <section id="interests">
+        <h2>What I'm into</h2>
+        <p>Video game design is the thing I keep coming back to. I like figuring out how a game works under the hood, and this site is a small first step toward making my own.</p>
+    </section>
+
+    <section id="goals">
+        <h2>Where I'm headed</h2>
+        <p>After HVCC, I want to transfer to UAlbany and keep studying computing. For now I'm learning HTML and CSS, so this page will keep changing as I get better.</p>
+    </section>
+
+    <footer>
+        <p>Made by Ryan Garcia, 2026.</p>
+    </footer>
+
+</body>
+</html>
